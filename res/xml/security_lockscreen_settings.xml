@@ -56,6 +56,13 @@
             android:summary="@string/lockdown_settings_summary"
             settings:controller="com.android.settings.security.LockdownButtonPreferenceController" />
 
+        <org.descendant.support.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/lockscreen_media_art_title"
+            android:icon="@drawable/ic_lockscreen_media"
+            android:summary="@string/lockscreen_media_art_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
