@@ -70,6 +70,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
     private static final String KEY_BATTERY_HEADER = "battery_header";
 
+    private static final String KEY_BATTERY_TEMP = "battery_temperature";
     private static final String KEY_SCREEN_USAGE = "screen_usage";
     private static final String KEY_TIME_SINCE_LAST_FULL_CHARGE = "last_full_charge";
 
@@ -83,6 +84,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
     @VisibleForTesting
     PowerGaugePreference mScreenUsagePref;
+    @VisibleForTesting
+    PowerGaugePreference mBatteryTempPref;
     @VisibleForTesting
     PowerGaugePreference mLastFullChargePref;
     @VisibleForTesting
@@ -226,6 +229,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mBatteryLayoutPref = (LayoutPreference) findPreference(KEY_BATTERY_HEADER);
 
         mScreenUsagePref = (PowerGaugePreference) findPreference(KEY_SCREEN_USAGE);
+        mBatteryTempPref = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mLastFullChargePref = (PowerGaugePreference) findPreference(
                 KEY_TIME_SINCE_LAST_FULL_CHARGE);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
@@ -318,6 +322,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         updateLastFullChargePreference();
         mScreenUsagePref.setSubtitle(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
+        mBatteryTempPref.setSummary(BatteryInfo.batteryTemp / 10 + " °C");
     }
 
     @VisibleForTesting

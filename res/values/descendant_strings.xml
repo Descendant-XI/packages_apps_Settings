@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+_<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2019 Descendant Open Sauce Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -231,5 +231,8 @@
      <!-- QS Compact Layout -->
      <string name="qs_compact_layout_title">QS Compact Layout</string>
      <string name="qs_compact_layout_summary">Enable a smaller layout for QS header</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Battery temperature</string>
 
 </resources>
