@@ -204,4 +204,8 @@
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
 
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert Navigation Bar layout</string>
+    <string name="navbar_invert_info">This will swap the \"Back\" and \"Recents\" buttons on the navigation bar</string>
+
 </resources>
