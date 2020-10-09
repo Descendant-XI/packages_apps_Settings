@@ -165,6 +165,12 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+    <SwitchPreference
+        android:key="enable_blurs_on_windows"
+        android:icon="@drawable/ic_blur"
+        android:title="@string/enable_blur_on_windows_title"
+        android:summary="@string/enable_blurs_on_windows_summary" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
