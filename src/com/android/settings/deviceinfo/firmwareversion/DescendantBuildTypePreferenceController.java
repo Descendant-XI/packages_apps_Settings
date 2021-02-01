@@ -39,15 +39,7 @@ public class DescendantBuildTypePreferenceController  extends BasePreferenceCont
 
     @Override
     public CharSequence getSummary() {
-        String buildType = SystemProperties.get(DESCENDANT_BUILD_TYPE);
-        switch (buildType) {
-            case "OFFICIAL":
-                return mContext.getString(R.string.descendant_official, buildType);
-            case "MASHED":
-                return mContext.getString(R.string.descendant_mashed, buildType);
-            default:
-                return mContext.getString(R.string.descendant_unofficial);
-        }
+        return SystemProperties.get(DESCENDANT_BUILD_TYPE);
     }
 }
 
