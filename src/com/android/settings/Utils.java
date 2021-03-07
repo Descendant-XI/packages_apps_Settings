@@ -1152,46 +1152,4 @@ public final class Utils extends com.android.settingslib.Utils {
         drawable.draw(canvas);
         return roundedBitmap;
     }
-
-    public static boolean isFaceDisabledByAdmin(Context context) {
-        DevicePolicyManager devicePolicyManager = (DevicePolicyManager) context.getSystemService(Context.DEVICE_POLICY_SERVICE);
-        try {
-            if (devicePolicyManager.getPasswordQuality(null) > DevicePolicyManager.PASSWORD_QUALITY_MANAGED) {
-                return true;
-            }
-        } catch (SecurityException e) {
-            Log.e("Settings", "isFaceDisabledByAdmin error:", e);
-        }
-        if ((devicePolicyManager.getKeyguardDisabledFeatures(null) & DevicePolicyManager.KEYGUARD_DISABLE_FACE) != 0) {
-            return true;
-        }
-        return false;
-    }
-
-    /**
-     * Returns {@code true} if needed to disable media output, otherwise returns {@code false}.
-     */
-    public static boolean isMediaOutputDisabled(
-            MediaRouter2Manager router2Manager, String packageName) {
-        boolean isMediaOutputDisabled = false;
-        if (!TextUtils.isEmpty(packageName)) {
-            final List<MediaRoute2Info> infos = router2Manager.getAvailableRoutes(packageName);
-            if (infos.size() == 1) {
-                final MediaRoute2Info info = infos.get(0);
-                final int deviceType = info.getType();
-                switch (deviceType) {
-                    case TYPE_UNKNOWN:
-                    case TYPE_REMOTE_TV:
-                    case TYPE_REMOTE_SPEAKER:
-                    case TYPE_GROUP:
-                        isMediaOutputDisabled = true;
-                        break;
-                    default:
-                        isMediaOutputDisabled = false;
-                        break;
-                }
-            }
-        }
-        return isMediaOutputDisabled;
-    }
 }
