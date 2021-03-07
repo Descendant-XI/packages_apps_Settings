@@ -1152,4 +1152,32 @@ public final class Utils extends com.android.settingslib.Utils {
         drawable.draw(canvas);
         return roundedBitmap;
     }
+
+    /**
+     * Returns {@code true} if needed to disable media output, otherwise returns {@code false}.
+     */
+    public static boolean isMediaOutputDisabled(
+            MediaRouter2Manager router2Manager, String packageName) {
+        boolean isMediaOutputDisabled = false;
+        if (!TextUtils.isEmpty(packageName)) {
+            final List<MediaRoute2Info> infos = router2Manager.getAvailableRoutes(packageName);
+            if (infos.size() == 1) {
+                final MediaRoute2Info info = infos.get(0);
+                final int deviceType = info.getType();
+                switch (deviceType) {
+                    case TYPE_UNKNOWN:
+                    case TYPE_REMOTE_TV:
+                    case TYPE_REMOTE_SPEAKER:
+                    case TYPE_GROUP:
+                        isMediaOutputDisabled = true;
+                        break;
+                    default:
+                        isMediaOutputDisabled = false;
+                        break;
+                }
+            }
+        }
+        return isMediaOutputDisabled;
+    }
+
 }
