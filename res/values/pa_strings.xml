@@ -15,127 +15,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Paranoid Android version -->
-    <string name="pa_version">Paranoid Android version</string>
-
-    <!-- Swipe to screenshot -->
-    <string name="swipe_to_screenshot_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_summary">Swipe 3 fingers down the screen to take a screenshot</string>
-
-    <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
-
-    <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
-    <string name="icon_manager_summary">Control visibility of status bar icons</string>
-
-    <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader</string>
-
-    <!-- Immersive Navigation -->
-    <string name="immersive_navigation_title">Immersive Navigation</string>
-
-    <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_disabled_summary">Off</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none">No timeout</string>
-    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
-
-    <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
-
-    <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
-
-    <!-- Horizon Light -->
-    <string name="pulse_ambient_light_title">Edge notifications</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="ambient_notification_light_accent_title">System accent color</string>
-    <string name="ambient_notification_light_color_automatic_title">Notification color</string>
-    <string name="pulse_ambient_light_color">When pulsing, use</string>
-
-    <!-- Format string for fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your phone.</string>
-
-    <!-- Fingerprint sensor locations -->
-    <string name="security_settings_fingerprint_sensor_location_back">back</string>
-    <string name="security_settings_fingerprint_sensor_location_front">front</string>
-    <string name="security_settings_fingerprint_sensor_location_left">left side</string>
-    <string name="security_settings_fingerprint_sensor_location_right">right side</string>
-
-    <!-- DC Dimming -->
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
-    <string name="dc_dimming_auto_mode_title">Schedule</string>
-    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
-    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
-    <string name="dc_dimming_brightness_title">Brightness threshold</string>
-    <string name="dc_dimming_brightness_disabled">Disabled</string>
-    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
-    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
-    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
-    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
-    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
-
-    <!-- Gestures Settings -->
-    <string name="quick_gestures_title">Quick gestures</string>
-    <string name="offscreen_gesture_title">Screen off gestures</string>
-    <string name="offscreen_gesture_summary">Draw patterns or tap on screen to perform actions</string>
-    <string name="keywords_gestures">screen touchscreen draw swipe finger tap</string>
-
-    <string name="gestures_double_tap">Double-tap</string>
-    <string name="gestures_single_tap">Single-tap</string>
-    <string name="gestures_draw_v">Draw V</string>
-    <string name="gestures_draw_inverse_v">Draw Inverse V</string>
-    <string name="gestures_draw_o">Draw O</string>
-    <string name="gestures_draw_m">Draw M</string>
-    <string name="gestures_draw_w">Draw W</string>
-    <string name="gestures_draw_s">Draw S</string>
-    <string name="gestures_draw_arrow_left">Draw &lt;</string>
-    <string name="gestures_draw_arrow_right">Draw &gt;</string>
-    <string name="gestures_one_finger_swipe_up">One-finger swipe up</string>
-    <string name="gestures_one_finger_swipe_right">One-finger swipe right</string>
-    <string name="gestures_one_finger_swipe_down">One-finger swipe down</string>
-    <string name="gestures_one_finger_swipe_left">One-finger swipe left</string>
-    <string name="gestures_two_finger_swipe">Two-finger swipe</string>
-
-    <string name="gestures_disabled">Disabled</string>
-    <string name="gestures_wake_device">Wake device</string>
-    <string name="gestures_pulse_ambient_display">Pulse to ambient display</string>
-    <string name="gestures_toggle_flashlight">Toggle flashlight</string>
-    <string name="gestures_toggle_airplane_mode">Toggle airplane mode</string>
-    <string name="gestures_play_pause_music">Play/Pause music</string>
-    <string name="gestures_next_music">Next music</string>
-    <string name="gestures_previous_music">Previous music</string>
-    <string name="gestures_open_camera">Open camera</string>
-    <string name="gestures_open_dialer">Open dialer</string>
-
     <!-- App Lock -->
     <string name="applock_title">App locker</string>
     <string name="applock_locked">Locked</string>
     <string name="applock_unlocked">Unlocked</string>
     <string name="applock_locked_apps">Locked apps</string>
     <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_show_only_on_wake">Authenticate only once</string>
-    <string name="applock_show_only_on_wake_on_summary">Once authenticated, an app stays unlocked until the screen turns off</string>
-    <string name="applock_show_only_on_wake_off_summary">Once authenticated, an app stays unlocked for 15 seconds after exiting</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
     <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
     <string name="applock_show_notif">Showing notification content</string>
     <string name="applock_hide_notif">Hiding notification content</string>
