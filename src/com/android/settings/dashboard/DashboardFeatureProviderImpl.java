@@ -81,7 +81,6 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
     private static final String TAG = "DashboardFeatureImpl";
     private static final String DASHBOARD_TILE_PREF_KEY_PREFIX = "dashboard_tile_pref_";
     private static final String META_DATA_KEY_INTENT_ACTION = "com.android.settings.intent.action";
-    private static final String[] PARTS = {"xiaomi", "realme", "oneplus", "asus", "parts", "lineage"};
     private static final String PACKAGENAME_GMS = "com.google.android.gms";
     private static final String PACKAGENAME_WELLBEING = "com.google.android.apps.wellbeing";
 
@@ -368,8 +367,6 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
         final Icon tileIcon = tile.getIcon(preference.getContext());
         if (tileIcon != null) {
             Drawable iconDrawable = tileIcon.loadDrawable(preference.getContext());
-            iconDrawable = homepageOverride(tileIcon, preference, tile);
-            Log.d("Dil3mm4", "value: "+ String.valueOf(getDashboardKeyForTile(tile)));
             if (tile.getPackageName().equals(PACKAGENAME_GMS)
                     && tile.getTitle(preference.getContext()).toString().equalsIgnoreCase("Google")) {
                 iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_google_settings);
@@ -407,19 +404,6 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
             });
         }
     }
-
-    private Drawable homepageOverride(Icon tileIcon, Preference preference, Tile tile) {
-        for(int i=0;i < PARTS.length; i++) {
-            if (tile.getPackageName().toLowerCase().contains(PARTS[i])){
-                mIsIconOverridden = true;
-                Log.d("Dil3mm4", "value: "+ String.valueOf(getDashboardKeyForTile(tile)));
-                return preference.getContext().getDrawable(R.drawable.ic_homepage_device_parts);
-            }
-        }
-        mIsIconOverridden = false;
-        return tileIcon.loadDrawable(preference.getContext());
-    }
-
 
     private void launchIntentOrSelectProfile(FragmentActivity activity, Tile tile, Intent intent,
             int sourceMetricCategory) {
