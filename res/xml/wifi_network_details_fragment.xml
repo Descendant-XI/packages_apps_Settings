@@ -125,7 +125,7 @@
                 settings:enableCopying="true"/>
         <Preference
                 android:key="rx_link_speed"
-                android:icon="@drawable/ic_rx_link_speed"
+                android:icon="@drawable/ic_links"
                 android:title="@string/rx_wifi_speed"
                 android:selectable="false"
                 settings:enableCopying="true"/>
