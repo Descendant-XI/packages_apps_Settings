@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 Descendant Open Sauce Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="ambient_display_custom">Affichage ambiant et capteurs</string>
+    <!-- POSP version in About phone -->
+    <string name="descendant_version_title">Version de Descendant</string>
+
+    <!-- Build types, now with translations -->
+    <string name="build_type">Type de build</string>
+
+    <!-- Device Model -->
+    <string name="descendant_device_model">Modèle</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Déverrouiller avec empreinte digitale lorsque l\'écran est éteint</string>
+    <string name="fod_gesture_summary">Permet de déverrouiller l\'appareil sans avoir à réveiller d\'abord l\'écran</string>
+
+    <!-- Descendant redirect styles app -->
+    <string name="styles_app_title">Style des applications</string>
+    <string name="styles_app_summary">Personnalisez les paramètres pour votre confort</string>
+    <!-- Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Couleur d\'accent</string>
+    <!-- Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Police des titres / corps</string>
+    <!-- Title of the setting which enables overlays to customize the adaptive icon shape. -->
+    <string name="theme_customization_icon_shape_title">Forme d\'icône</string>
+
+    <!-- Descendant volume cool stuff -->
+    <string name="extra_volume_features_title">Gestion audio</string>
+    <string name="resume_audio_stream_title">Reprendre l\'audio</string>
+    <string name="resume_audio_stream_summary">Reprendre automatiquement l\'audio s\'il a été mis en pause en raison de l\'interaction de l\'utilisateur sur le volume (ramenant la barre de volume à zéro)</string>
+    <string name="pause_audio_stream_title">Pause media</string>
+    <string name="pause_audio_stream_summary">Mettre automatiquement en pause la lecture multimédia si le volume multimédia a été mis en sourdine</string>
+
+    <!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">Options de l\'interface de volume</string>
+    <string name="expand_immediately_title">Activer le bouton d\'expansion du panneau de volume</string>
+    <string name="expand_immediately_summary">Afficher un bouton supplémentaire du panneau de volume qui vous permettra de l\'étendre, sans avoir à interagir avec la barre à moitié cachée</string>
+
+    <!-- Descendant Guardia-->
+    <string name="descendant_guardia_pc">Descendant Guardia</string>
+    <string name="descendant_guardia_enable">Activer Descendant Guardia</string>
+    <string name="descendant_guardia_enable_summary">L\'activation de Descendant Guardia vous aidera à savoir quand vos applications demandent des autorisations, même en arrière-plan</string>
+    <string name="descendant_guardia_exclude_gapps">Liste blanche Google apps</string>
+    <string name="descendant_guardia_exclude_gapps_summary">Avec cette fonctionnalité activée, vous ne recevrez aucune notification si une application Google demande des autorisations</string>
+    <string name="descendant_guardia_exclude_system_apps">Liste blanche Applications système</string>
+    <string name="descendant_guardia_exclude_system_apps_summary">Avec cette fonctionnalité activée, vous ne recevrez aucune notification si une application système demande des autorisations</string>
+    <string name="descendant_guardia_alert_me_pc_title">Alertes</string>
+    <string name="descendant_guardia_alert_me_title">Alertes</string>
+    <string name="descendant_guardia_alert_me_summary">Activer alertes</string>
+    <string name="descendant_guardia_is_gps_alert_title">Alerte GPS</string>
+    <string name="descendant_guardia_is_gps_alert_summary">Afficher une alerte quand l\'accés GPS est demandé</string>
+    <string name="descendant_guardia_is_camera_alert_title">Alerte appareil photo</string>
+    <string name="descendant_guardia_is_camera_alert_summary">Montre une alerte quand l\'accés à l\'appareil photo est demandé</string>
+    <string name="descendant_guardia_is_record_audio_alert_title">Alerte Micro</string>
+    <string name="descendant_guardia_is_record_audio_alert_summary">Afficher une alerte quand l\'accès micro est utilsé</string>
+    <string name="descendant_guardia_is_phone_alert_title">Alerte téléphone</string>
+    <string name="descendant_guardia_is_phone_alert_summary">Afficher une alerte quand l\'accés au téléphone est demandé</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_title">Alerte lecture presse-papîer</string>
+    <string name="descendant_guardia_is_clipboard_read_alert_summary">Afficher une alerte quand une lecture du presse-papiers est demandée</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_title">Alerte écriture pressse-papier</string>
+    <string name="descendant_guardia_is_clipboard_write_alert_summary">Afficher une alerte quand une écriture dans le presse papiers est demandée</string>
+    <string name="descendant_guardia_notif_type_title">Utiliser les notifications au lieu des toasts</string>
+    <string name="descendant_guardia_notif_type_summary">En activant cette option, une notification remplacera le toast lorsqu\'il y a une permission à signaler.</string>
+    <string name="descendant_guardia_description">Descendant Guardia, est le gardien de votre vie privée, qui vous aidera à comprendre ce que vos applications font, en temps réel, avec les autorisations que vous leur avez données.</string>
+    <string name="help_url_descendant_guardia"></string>
+    <string name="descendant_guardia_whitelists">Listes blanches</string>
+    <string name="descendant_guardia_notifications_title">Type de notification</string>
+    <string name="descendant_guardia_alert_options">Type d\'alerte</string>
+    <string name="descendant_guardia_frag_title">Descendant Guardia</string>
+    <string name="descendant_guardia_frag_summary">Votre gardien vie privée qui vous sensibilisera à ce qui se passe sur votre apparei</string>
+
+    <!-- Privacy Services -->
+    <string name="google_privacy_services">Services de confidentialité Google</string>
+
+    <!-- Versioning -->
+    <!-- Descendant about phone -->
+    <string name="descendant_support">Vous avez besoin d\'aide ?</string>
+    <string name="descendant_support_summary">Tapez ici pour rejoindre le groupe d\'aide officiel de Telegram.</string>
+    <string name="descendant_website">https://bit.ly/descendant_blog</string>
+    <string name="descendant_support_website">https://bit.ly/3bpFRPx</string>
+    <string name="descendant_version">Version de Descendant</string>
+    <string name="descendant_version_default">Inconnu</string>
+
+    <!-- Thumb UI -->
+    <string name="thumb_ui_title">Thumb UI</string>
+    <string name="thumb_ui_summary">Ce bouton permet d\'activer l\'interface Thumb UI. \nUne interface qui permet l\'utilisation d\'une seule main.</string>
+
+    <!-- Descendant Storage Manager -->
+    <string name="descendant_storage_manager_title">Gestionnaire de stockage Descendant</string>
+    <string name="descendant_storage_manager_summary">Ce gestionnaire s\'occupera lui-même des déchets que vos applications peuvent générer. \nIl peut coexister avec le gestionnaire par défaut d\'Android.</string>
+
+    <!-- Descendant Health Manager -->
+    <string name="descendant_health_manager_title">Gestionnaire santé Descendant</string>
+    <string name="descendant_health_manager_summary">Ce gestionnaire aide les utilisateurs à déterminer quand et comment éviter que leur smartphone n\'interfère avec leur santé.</string>
+
+    <!-- Descendant Idle Manager -->
+    <string name="descendant_idle_manager_title">Gestionnaire d\'inactivité de Descendant</string>
+    <string name="descendant_idle_manager_summary">Algorithme de Descendant pour assurer la performance (recommandé activé)</string>
+
+    <!-- Don't touch notification -->
+    <string name="dont_touch_notification_title">"Ne pas toucher Heads-up"</string>
+    <string name="dont_touch_notification_summary">Évite de lancer l\'application après avoir touché Heads-up</string>
+
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Remplacez vos notifications par une version repensée! \nPlus petite et moins invasive qu\'une notification standard</string>
+    <string name="reticker_colored_title">Utiliser l\'arrière-plan coloré de l\'application</string>
+    <string name="reticker_colored_summary">Remplacer la couleur d\'arrière-plan de reTicker à l\'aide de la couleur de notification</string>
+
+    <!-- Descendant Clock Flow -->
+    <string name="descendant_clock_flow_category_title">Flux d\'horloge Descendant</string>
+    <string name="descendant_clock_flow_title">Activer le flux d\'horloge</string>
+    <string name="descendant_clock_flow_summary">L\'activation du flux d\'horloge descendant fournira une nouvelle façon de voir discrètement de quelle application vous avez reçu une notification, sur l\'écran de verrouillage et la notification ambiante</string>
+    <string name="descendant_clock_flow_selection">Sélectionnez le style de flux d\'horloge Descendant</string>
+    <!-- Descendant Clock Flow Selector -->
+    <string name="descendant_clock_flow_selector_title">Thèmes de flux d\'horloge Descendant</string>
+    <string name="descendant_clock_flow_selector_default">Default</string>
+    <string name="descendant_clock_flow_selector_descendant">Descendant</string>
+    <string name="descendant_clock_flow_selector_swan">Cygne</string>
+    <string name="descendant_clock_flow_selector_chameleon">Caméléon</string>
+    <string name="descendant_clock_flow_selector_venetian_mask">Masque vénitien</string>
+    <string name="descendant_clock_flow_selector_birdie">Oiseau</string>
+    <string name="descendant_clock_flow_selector_cityline">Ligne ville</string>
+    <string name="descendant_clock_flow_selector_earth">Terre</string>
+    <string name="descendant_clock_flow_selector_moon">Lune</string>
+    <string name="descendant_clock_flow_selector_pinwheel">Moulin à vent</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Son de Capture d\'écran</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activer la lampe torche</string>
+    <string name="double_tap_power_flashlight_title"> Bouton d\'alimentation contrôle la lampe torche</string>
+    <string name="torch_power_button_gesture_none">Désactivé</string>
+    <string name="torch_power_button_gesture_dt">Appuyez deux fois sur le bouton pour activer la lampe torche</string>
+    <string name="torch_power_button_gesture_lp">Appuyez longuement sur le bouton pour activer la lampe torche</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Passer les pistes musicales</string>
+    <string name="volume_skiptrack_title">Les touches volume permettent de passer les pistes</string>
+    <string name="volume_skiptrack_summary">Appuyez longuement sur les touches volume pour passer les pistes lors de la lecture de musique, même à distance sur la télévision ou le PC avec par exemple Spotify (l\'application doit fonctionner sur le téléphone et afficher la notification).</string>
+
+    <string name="pulse_on_new_tracks_title">Affichage Ambiant musique</string>
+    <string name="pulse_on_new_tracks_summary">Afficher l\'affichage ambiant lorsqu\'une nouvelle piste musicale est lue. Appuyez deux fois sur les informations de la piste pour passer à la piste suivante..</string>
+    <string name="pulse_on_new_tracks_soli_summary">Afficher l\'affichage ambiant lors de la lecture d\'une nouvelle piste musicale</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Longueur de la barre gestes</string>
+    <string name="hidden_label">Cachée</string>
+    <string name="long_label">Long</string>
+
+    <!-- Descendant Double Tap to Sleep gesture -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap pour veille</string>
+    <string name="double_tap_sleep_lockscreen_summary">Appuyez deux fois n\'importe où sur l\'écran de verrouillage pour mettre le téléphone en veille</string>
+    <string name="lock_screen_gestures_title">Gestes</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Glisser pour faire une capture d\'écran</string>
+    <string name="three_finger_gesture_summary">Faites glisser trois doigts vers le bas pour prendre une capture d\'écran</string>
+
+     <!-- Weather Metrics-->
+     <string name="weather_metrix_title">Unité de température</string>
+     <string name="weather_metrics_celsius">C°</string>
+     <string name="weather_metrics_fahrenheit">°F</string>
+
+     <!-- Descendant Health Dashboard-->
+     <string name="descendant_health_dashboard_title">Santé Descendant</string>
+     <string name="descendant_health_dashboard_summary">Données COVID-19, aide au sommeil, protection des yeux</string>
+
+     <!-- Traffic monitor -->
+     <string name="network_traffic_state_title">Moniteur de réseau</string>
+     <string name="network_traffic_state_summary">Activer le moniteur réseau de la barre d\'état</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Écouteurs enregistrés</string>
+
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Programmation d\'affichage permanent</string>
+    <string name="always_on_display_schedule_sunset">Coucher de soleil</string>
+    <string name="always_on_display_schedule_sunrise">Lever du soleil</string>
+    <string name="disabled">Désactivé</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_summary">Selectionnez les angles de rotation</string>
+    <string name="display_rotation_disabled">Désactivé</string>
+    <string name="display_rotation_unit">degrés</string>
+    <string name="display_rotation_category_title">Modes de rotation</string>
+    <string name="display_rotation_0_title">0 degré</string>
+    <string name="display_rotation_90_title">90 degrés</string>
+    <string name="display_rotation_180_title">180 degrés</string>
+    <string name="display_rotation_270_title">270 degrés</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverser la disposition de la barre de navigation</string>
+    <string name="navbar_invert_info">Les boutons \"Précédent\" et \"Récents\" de la barre de navigation seront alors intervertis.</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+    <string name="unlock_quick_unlock_control_summary">Déverrouillage automatique lorsque le PIN/mot de passe correct est saisi.</string>
+
+    <!-- statusbar tuner -->
+    <string name="statusbar_tuner_title">Tuner de barre de statut</string>
+
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Afficher la pochette du média</string>	
+    <string name="lockscreen_media_art_summary">Afficher la pochette d\'album du média en cours de lecture sur le l\'écran de verrouillage</string>
+
+    <!-- QS media player -->
+    <string name="qs_media">Réglages rapides Média</string>
+    <string name="qs_media_player_title">Lecteur Média player</string>
+    <string name="qs_media_player_summary_on">Afficher le lecteur multimédia dans QS \nNécessite un redémarrage de Système UI</string>
+    <string name="qs_media_player_summary_off">Afficher le lecteur multimédia sous forme de notification \nNécessite un redémarrage de Système UI</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Voyant de charge de la batterie</string>
+    <string name="battery_light_enable">Voyant de la batterie</string>
+    <string name="battery_light_allow_on_dnd_title">Voyant de la batterie en mode ne pas déranger</string>
+    <string name="battery_light_low_blinking_title">Voyant clignotant sur batterie faible</string>
+    <string name="battery_light_cat">Couleur du voyant de la batterie lors de la charge</string>
+    <string name="battery_light_low_color">Batterie faible</string>
+    <string name="battery_light_medium_color">Batterie moyenne</string>
+    <string name="battery_light_full_color">Batterie presque pleine</string>
+    <string name="battery_light_reallyfull_color">Batterie pleine (100)</string>
+
+     <!-- Custom light color -->
+    <string name="custom_light_title">Couleur voyant</string>
+    <string name="custom_light_on_time_title">Temps d\'allumage de la lumière pendant l\'impulsion LED (ms)</string>
+    <string name="custom_light_off_time_title">Temps d\'extinction de la lumière pendant l\'impulsion de la LED (ms)</string>
+
+    <!-- Global Actions -->
+    <string name="power_menu_customization_category_title">Personnalisation du menu d\'alimentation</string>
+    <string name="global_actions_title">Actions du menu d\'alimentation</string>
+    <string name="global_actions_summary">Sélectionnez ce que vous souhaitez afficher lorsque vous appuyez sur le bouton d\'alimentation</string>
+    <string name="global_actions_power">Éteindre</string>
+    <string name="global_actions_restart">Redémarrer</string>
+    <string name="global_actions_airplane">Mode avion</string>
+    <string name="global_actions_settings">Réglages</string>
+    <string name="global_actions_lockdown">Verrouillage</string>
+    <string name="global_actions_soundpanel">Panneau de volume</string>
+    <string name="global_actions_users">Utilisateurs</string>
+    <string name="global_actions_screenshot">Capture d\'écran</string>
+    <string name="global_actions_screenrecord">Enregistreur d\'ecran</string>
+    <string name="global_actions_flashlight">Lampe torche</string>
+    <string name="global_actions_emergency">Urgences</string>
+    <string name="global_actions_advanced_reboot_title">Activer le redémarrage avancé</string>
+    <string name="global_actions_advanced_reboot_summary">Lors du redémarrage, affichez également les options Recovery et Bootloader</string>
+    <string name="global_actions_max_columns_title">Actions maximales à afficher</string>
+    <string name="global_actions_max_columns_summary">Définir le nombre d\'actions à afficher avant que les boutons ne passent au menu de débordement</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tapez pour voir</string>
+
+</resources>
