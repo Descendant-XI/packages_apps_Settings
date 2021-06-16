@@ -136,6 +136,13 @@
         android:fragment="com.android.settings.dream.DreamSettings" />
 
     <org.descendant.support.preferences.SystemSettingSwitchPreference
+        android:key="qs_compact_layout"
+        android:title="@string/qs_compact_layout_title"
+        android:icon="@drawable/ic_qs_compact_layout"
+        android:summary="@string/qs_compact_layout_summary"
+        android:defaultValue="false" />
+
+    <org.descendant.support.preferences.SystemSettingSwitchPreference
         android:key="thumb_ui"
         android:title="@string/thumb_ui_title"
         android:icon="@drawable/ic_thumb_ui"
