@@ -229,7 +229,7 @@
     <string name="device_info_protected_single_press">Tap to show info</string>
 
      <!-- QS Compact Layout -->
-     <string name="qs_compact_layout_title">Modalità QS compatta</string>
-     <string name="qs_compact_layout_summary">Abilita un impaginazione più piccola per l\'intestazione dei QS</string>
+     <string name="qs_compact_layout_title">QS Compact Layout</string>
+     <string name="qs_compact_layout_summary">Enable a smaller layout for QS header</string>
 
 </resources>
